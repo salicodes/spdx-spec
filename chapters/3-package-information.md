@@ -509,7 +509,7 @@ Example:
 
 ## 3.10 Package Checksum <a name="3.10"></a>
 
-**3.10.1** Purpose: Provide an independently reproducible mechanism that permits unique identification of a specific package that correlates to the data in this SPDX file. This identifier enables a recipient to determine if any file in the original package has been changed. If the SPDX file is to be included in a package, this value should not be calculated. The [SHA-1][] algorithm will be used to provide the checksum by default. 
+**3.10.1** Purpose: Provide an independently reproducible mechanism that permits unique identification of a specific package that correlates to the data in this SPDX file. This identifier enables a recipient to determine if any file in the original package has been changed. If the SPDX file is to be included in a package, this value should not be calculated. The [SHA-1][] algorithm will be used to provide the checksum by default.
 
 **3.10.2** Intent: Eliminate confusion over which version or modification of a specific package the SPDX file references by providing a unique identifier of the package.
 
@@ -975,7 +975,7 @@ Example:
 
     ExternalRef: OTHER LocationRef-acmeforge acmecorp/acmenator/4.1.3-alpha
 
-**3.21.6** RDF: property `target` in class `spdx:ExternalRef` in class `spdx:Package`
+**3.21.6** RDF: property `target` in class `spdx:externalRef` in class `spdx:Package`
 
 Example (for a listed location):
 
@@ -1029,7 +1029,7 @@ Example:
     security vulnerabilities (CVEs) which affect Vendor Product Version
     acmecorp:acmenator:6.6.6.</text>
 
-**3.22.6** RDF: Property `rdfs:comment` in class `spdx:ExternalRef` in class `spdx:Package`
+**3.22.6** RDF: Property `rdfs:comment` in class `spdx:externalRef` in class `spdx:Package`
 
     <spdx:Package rdf:about="...">
         ...
