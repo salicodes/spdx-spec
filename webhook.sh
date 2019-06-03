@@ -1,9 +1,9 @@
-#!/bin/#!/usr/bin/env bash
+#!/bin/bash
 
-set -eu
+set -e
 
-TARGET = "https://github.com/salicodes/spdx-spec/"
-REPO = "https://github.com/salicodes/spdx-spec.git"
+TARGET = "/path/to/output/destinaion"
+REPO = "/path/to/local/repo"
 BRANCH = "master"
 
 while read oldrev newrev ref
