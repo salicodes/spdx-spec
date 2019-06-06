@@ -1,4 +1,4 @@
-#!/bin/#!/usr/bin/env bash
+#!/bin/bash
 set -eu
 rm *.pdf -f
 for BRANCH in `git branch --list|sed 's/\*//g'`;
