@@ -1,3 +1,15 @@
+---
+title: "Software Package Data Exchange® (SPDX®) Specifications"
+titlepage: true
+titlepage-text-color: "123F66"
+titlepage-rule-color: "213E4C"
+titlepage-rule-height: 2
+header-left: "Here comes header"
+footer-left: "Here comes footer"
+logo: "logo.pdf"
+logo-width: 220
+...
+
 # The Software Package Data Exchange (SPDX®) Specification Version 2.1.1
 
 Copyright © 2010-2018 Linux Foundation and its Contributors. This work is licensed under the Creative Commons Attribution License 3.0 Unported (CC-BY-3.0) reproduced in its entirety in [Appendix VII](appendix-VII-creative-commons-attribution-license-3.0-unported.md) herein. All other rights are expressly reserved.
